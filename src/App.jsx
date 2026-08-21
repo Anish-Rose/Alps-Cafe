@@ -378,11 +378,11 @@ function App() {
           </div>
 
           <div className="gallery-item">
-            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=400" alt="Fresh Baked Pastry" />
+            <img src={config.restaurantBurgers} alt="Signature Alps Gourmet Burgers and Fries" />
             <div className="gallery-overlay">
-              <span className="gallery-overlay-icon">🍰</span>
-              <h3>Fresh Pastries</h3>
-              <p>Baked Daily</p>
+              <span className="gallery-overlay-icon">🍔</span>
+              <h3>Gourmet Burgers</h3>
+              <p>Crispy & Juicy</p>
             </div>
           </div>
 
@@ -405,11 +405,11 @@ function App() {
           </div>
 
           <div className="gallery-item">
-            <img src={config.restaurantRooftopAwning} alt="Scenic Rooftop Dining Area" />
+            <img src={config.restaurantRooftopAwning} alt="Rooftop Group Dining Area" />
             <div className="gallery-overlay">
-              <span className="gallery-overlay-icon">🌅</span>
-              <h3>Scenic Seating</h3>
-              <p>Beautiful Views</p>
+              <span className="gallery-overlay-icon">👥</span>
+              <h3>Rooftop Gatherings</h3>
+              <p>Gather & Celebrate</p>
             </div>
           </div>
 

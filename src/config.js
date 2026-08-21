@@ -10,4 +10,7 @@ export const config = {
   menuPdfPath: base + (import.meta.env.VITE_MENU_PDF_PATH || 'ALPS Cafe - Menu Card Final.pdf').replace(/^\//, ''),
   logoPath: base + (import.meta.env.VITE_LOGO_PATH || 'logo.png').replace(/^\//, ''),
   reviewsWidgetIframe: import.meta.env.VITE_REVIEWS_WIDGET_IFRAME || '',
+  restaurantRooftopDay: base + 'restaurant_rooftop_day.jpg',
+  restaurantIndoor: base + 'restaurant_indoor.jpg',
+  restaurantRooftopNight: base + 'restaurant_rooftop_night.jpg',
 };

@@ -186,7 +186,7 @@ function App() {
       <section id="home" className="hero-section">
         <div className="hero-overlay"></div>
         <img 
-          src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=1200" 
+          src={config.restaurantRooftopNight} 
           alt="Alps Cafe Vibe" 
           className="hero-bg-image" 
         />
@@ -318,12 +318,12 @@ function App() {
         <div className="about-container">
           <div className="about-images">
             <img 
-              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600" 
+              src={config.restaurantIndoor} 
               alt="Alps Cafe Cozy Spot" 
               className="about-img-main" 
             />
             <img 
-              src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&q=80&w=300" 
+              src={config.restaurantRooftopDay} 
               alt="Pouring Latte" 
               className="about-img-side" 
             />
@@ -387,20 +387,20 @@ function App() {
           </div>
 
           <div className="gallery-item">
-            <img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&q=80&w=400" alt="Aesthetic Ambience" />
+            <img src={config.restaurantRooftopDay} alt="Aesthetic Ambience" />
             <div className="gallery-overlay">
               <span className="gallery-overlay-icon">✨</span>
-              <h3>Aesthetic Spaces</h3>
+              <h3>Rooftop Lounge</h3>
               <p>Relax & Vibe</p>
             </div>
           </div>
 
           <div className="gallery-item">
-            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=400" alt="Artisan Hot Latte" />
+            <img src={config.restaurantIndoor} alt="Alps Cafe Indoor Dining" />
             <div className="gallery-overlay">
               <span className="gallery-overlay-icon">🎨</span>
-              <h3>Latte Art</h3>
-              <p>Handcrafted Design</p>
+              <h3>Premium Interiors</h3>
+              <p>Warm Cozy Dining</p>
             </div>
           </div>
 
@@ -414,11 +414,11 @@ function App() {
           </div>
 
           <div className="gallery-item">
-            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=400" alt="Chilled Cold Brew" />
+            <img src={config.restaurantRooftopNight} alt="Alps Cafe Rooftop Night View" />
             <div className="gallery-overlay">
               <span className="gallery-overlay-icon">❄️</span>
-              <h3>Cold Specialties</h3>
-              <p>Refreshing Iced Drinks</p>
+              <h3>Rooftop Under Stars</h3>
+              <p>Aesthetic Night Vibe</p>
             </div>
           </div>
         </div>

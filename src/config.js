@@ -13,4 +13,6 @@ export const config = {
   restaurantRooftopDay: base + 'restaurant_rooftop_day.jpg',
   restaurantIndoor: base + 'restaurant_indoor.jpg',
   restaurantRooftopNight: base + 'restaurant_rooftop_night.jpg',
+  restaurantIndoorNeon: base + 'restaurant_indoor_neon.jpg',
+  restaurantRooftopAwning: base + 'restaurant_rooftop_awning.jpg',
 };

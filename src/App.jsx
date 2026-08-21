@@ -369,11 +369,11 @@ function App() {
 
         <div className="gallery-grid">
           <div className="gallery-item">
-            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=400" alt="Specialty Coffee Beans" />
+            <img src={config.restaurantIndoorNeon} alt="Alps Cafe Neon Sign Board" />
             <div className="gallery-overlay">
-              <span className="gallery-overlay-icon">☕</span>
-              <h3>Specialty Coffee</h3>
-              <p>Fresh Brews</p>
+              <span className="gallery-overlay-icon">✨</span>
+              <h3>Neon Lounge</h3>
+              <p>Instagrammable Spots</p>
             </div>
           </div>
 
@@ -405,11 +405,11 @@ function App() {
           </div>
 
           <div className="gallery-item">
-            <img src="https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&q=80&w=400" alt="Premium Sandwiches" />
+            <img src={config.restaurantRooftopAwning} alt="Scenic Rooftop Dining Area" />
             <div className="gallery-overlay">
-              <span className="gallery-overlay-icon">🥪</span>
-              <h3>Gourmet Food</h3>
-              <p>Savory Bites</p>
+              <span className="gallery-overlay-icon">🌅</span>
+              <h3>Scenic Seating</h3>
+              <p>Beautiful Views</p>
             </div>
           </div>
 
